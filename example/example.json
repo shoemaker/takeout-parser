@@ -1,0 +1,129 @@
+{
+  "id" : "user/15879414348097515629/state/com.google/starred",
+  "title" : "Example User's starred items in Google Reader",
+  "author" : "Example User",
+  "updated" : 1372194948,
+  "direction" : "ltr",
+  "items" : [ {
+    "crawlTimeMsec" : "1372017207716",
+    "timestampUsec" : "1372017207716803",
+    "id" : "tag:google.com,2005:reader/item/15e6b4308fb32ca5",
+    "categories" : [ "user/15875416346097585629/state/com.google/read", "user/15875416346097585629/state/com.google/starred", "user/15875416346097585629/state/com.google/fresh" ],
+    "title" : "Let's deploy via Git",
+    "published" : 1372017207,
+    "updated" : 1372017207,
+    "alternate" : [ {
+      "href" : "https://coderwall.com/p/xczkaq?&p=1&q=",
+      "type" : "text/html"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<a href=\"https://news.ycombinator.com/item?id=5927843\">Comments</a>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/https://news.ycombinator.com/rss",
+      "title" : "Hacker News",
+      "htmlUrl" : "https://news.ycombinator.com/"
+    }
+  }, {
+    "crawlTimeMsec" : "1371777138014",
+    "timestampUsec" : "1371777138014206",
+    "id" : "tag:google.com,2005:reader/item/45940530f0846247",
+    "categories" : [ "user/15875416346097585629/state/com.google/read", "user/15875416346097585629/state/com.google/starred", "user/15875416346097585629/state/com.google/fresh" ],
+    "title" : "Map of Mobile Devices Using Twitter",
+    "published" : 1371755758,
+    "updated" : 1371756847,
+    "alternate" : [ {
+      "href" : "http://www.mapbox.com/labs/twitter-gnip/brands/#5/38.000/-95.000",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>MapBox:</p>\n\n<blockquote>\n  <p>More than 280 million Tweets posted from mobile phones reveal\ngeographic usage patterns in unprecedented detail.</p>\n</blockquote>\n\n<p>Rather amazing. Zoom in <a href=\"http://www.mapbox.com/labs/twitter-gnip/brands/#11/40.0026/-75.1180\">on Philadelphia</a> or any other big city, and you see just what you’d expect: a red/green breakdown along socio-economic lines.</p>\n\n<p>Also: <a href=\"http://www.mapbox.com/labs/twitter-gnip/brands/#14/37.3896/-122.0909\">Mountain View seems pretty red</a>.</p>\n\n<div>\n<a title=\"Permanent link to ‘Map of Mobile Devices Using Twitter’\" href=\"http://daringfireball.net/linked/2013/06/20/twitter-map\"> ★ </a>\n</div>"
+    },
+    "author" : "John Gruber",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://daringfireball.net/index.xml",
+      "title" : "Daring Fireball",
+      "htmlUrl" : "http://daringfireball.net/"
+    }
+  }, {
+    "crawlTimeMsec" : "1371748854664",
+    "timestampUsec" : "1371748854664613",
+    "id" : "tag:google.com,2005:reader/item/8d8f2beca00037fc",
+    "categories" : [ "user/15875416346097585629/state/com.google/read", "user/15875416346097585629/state/com.google/starred", "user/15875416346097585629/state/com.google/fresh", "Other" ],
+    "title" : "Putting Minnesota tech on the map",
+    "published" : 1371672669,
+    "updated" : 1371672669,
+    "alternate" : [ {
+      "href" : "http://tech.mn/news/2013/06/19/minnesota-tech-map/",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>Introducing the <a href=\"http://tech.mn/map/\">Minnesota tech map v1</a> for a visual geographic layout of the <a href=\"http://tech.mn/directory/companies/\">companies</a>, <a href=\"http://tech.mn/directory/groups/\">groups</a>, <a href=\"http://tech.mn/jobs/\">jobs</a> and <a href=\"http://tech.mn/events/week-view/?y=2013&amp;date=06-16&amp;type=all&amp;c=any\">events</a> happening around the state.</p>\n<p>Synced with <a href=\"http://tech.mn/directory/\">database</a>, this location enabled tool can show whats near or far, helping discover more of what Minnesota tech has to offer.  A future version will sort and filter the pins by sub category (Startups, Capital, Edutech, HealthIT, Hardware, etc.), among other features.  Play around, find something new, and let us know how it could be better!</p>\n<p><em><span></span></em><a href=\"http://tech.mn/map/\"><img alt=\"Minnesota Tech Map\" src=\"http://tech.mn/files/2013/06/Screen-shot-2013-06-19-at-3.04.43-PM.png\" width=\"579\" height=\"324\"></a></p>\n<p>To add a company/group: <a href=\"http://tech.mn/directory/login/\">http://tech.mn/directory/login/</a></p>\n<p>To add an event: <a href=\"http://tech.mn/events/submit-an-event/\">http://tech.mn/events/submit-an-event/</a></p>\n<p>To add a job: <a href=\"http://tech.mn/jobs/add-job/\">http://tech.mn/jobs/add-job/</a></p>"
+    },
+    "author" : "The TECHdotMN Team",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/TECHdotMN",
+      "title" : "TECHdotMN",
+      "htmlUrl" : "http://tech.mn"
+    }
+  }, {
+    "crawlTimeMsec" : "1371213953713",
+    "timestampUsec" : "1371213953713670",
+    "id" : "tag:google.com,2005:reader/item/403b6671c99f3504",
+    "categories" : [ "user/15875416346097585629/state/com.google/read", "user/15875416346097585629/state/com.google/starred", "user/15875416346097585629/state/com.google/fresh" ],
+    "title" : "Ice Sheets",
+    "published" : 1371168000,
+    "updated" : 1371168000,
+    "alternate" : [ {
+      "href" : "http://xkcd.com/1225/",
+      "type" : "text/html"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://imgs.xkcd.com/comics/ice_sheets.png\" title=\"Data adapted from &#39;The Laurentide and Innuitian ice sheets during the Last Glacial Maximum&#39; by A.S. Dyke et. al., which was way better than the sequels &#39;The Laurentide and Innuitian ice sheets during the Last Glacial Maximum: The Meltdown&#39; and &#39;The Laurentide and Innuitian ice sheets during the Last Glacial Maximum: Continental Drift&#39;.\" alt=\"Data adapted from &#39;The Laurentide and Innuitian ice sheets during the Last Glacial Maximum&#39; by A.S. Dyke et. al., which was way better than the sequels &#39;The Laurentide and Innuitian ice sheets during the Last Glacial Maximum: The Meltdown&#39; and &#39;The Laurentide and Innuitian ice sheets during the Last Glacial Maximum: Continental Drift&#39;.\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://xkcd.com/atom.xml",
+      "title" : "xkcd.com",
+      "htmlUrl" : "http://xkcd.com/"
+    }
+  }, {
+    "crawlTimeMsec" : "1371136864987",
+    "timestampUsec" : "1371136864987062",
+    "id" : "tag:google.com,2005:reader/item/ceb520683f8bad44",
+    "categories" : [ "user/15875416346097585629/state/com.google/read", "user/15875416346097585629/state/com.google/starred", "user/15875416346097585629/state/com.google/fresh", "Blog" ],
+    "title" : "Say hello to the Foursquare Time Machine",
+    "published" : 1371135007,
+    "updated" : 1371135007,
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/thefoursquareblog/~3/swUyv-fyzk8/",
+      "type" : "text/html"
+    } ],
+    "canonical" : [ {
+      "href" : "http://blog.foursquare.com/2013/06/13/say-hello-to-the-foursquare-time-machine/"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>With 4 billion check-ins on Foursquare, we love <a href=\"https://foursquare.com/infographics/500million\">exploring</a> <a href=\"http://vimeo.com/62289901\">new</a> <a href=\"http://blog.foursquare.com/2013/04/16/happy-4sqday-and-a-huge-thank-you-to-our-incredible-community/\">ways</a> to <a href=\"http://vimeo.com/52883962\">visualize</a> all the places people go around the world, and the connections they’re making between them. Now, you can re-live each and everyone of your check-ins, and have your own beautiful visualization to share with the new <a href=\"http://foursquare.com/timemachine\">Foursquare Time Machine</a>.</p>\n<ul>\n<li>Zoom through time and space as you visualize all your check-ins</li>\n<li>Discover all the places you should head to next</li>\n<li>Save and share pretty infographics of all your stats</li>\n</ul>\n<p style=\"text-align:center\"><img alt=\"timemachine\" src=\"http://foursquare.wpengine.netdna-cdn.com/wp-content/uploads/2013/06/timemachine.jpg\" width=\"485\" height=\"585\"></p>\n<p>Ready to enter the Foursquare Time Machine? <a href=\"http://foursquare.com/timemachine\">Click here</a>.</p>\n<img src=\"http://feeds.feedburner.com/~r/thefoursquareblog/~4/swUyv-fyzk8\" height=\"1\" width=\"1\">"
+    },
+    "author" : "Foursquare",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://foursquare.tumblr.com/rss",
+      "title" : "foursquare",
+      "htmlUrl" : "http://foursquare.tumblr.com/"
+    }
+  }]
+}
