@@ -1,14 +1,11 @@
 var fs = require('fs');
 var hogan = require('./lib/hogan.js/hogan.js');
-var moment = require('./lib/moment.js');
+var google = require('./controllers/google.js');
 
 var input, output, 
 	format = 'text',
-	sortOrder = 'descending',
-	startDate, endDate;
+	sortOrder = 'descending';
 	
-var dateFormat = 'MMMM Do YYYY HH:mm';
-
 var args = process.argv.slice(2);
 if (args.length < 2) {
 	console.log('\nMissing required parameters. \nUsage: ');
@@ -37,29 +34,7 @@ if (args.length < 2) {
 	
 	// Data cleanup/preparation
 	json.items.forEach(function(item, index, array) {
-		// Human-readable dates.
-		item.published = moment.unix(item.published).format(dateFormat);
-		item.updated = moment.unix(item.updated).format(dateFormat);
-		
-		// Clean up categories
-		var ii = item.categories.length;
-		while (ii--) {
-			if (item.categories[ii].indexOf('com.google') !== -1) {
-				item.categories.splice(ii, 1);
-			} else {
-				catName = item.categories[ii];
-				item.categories[ii] = { 'name' : catName };
-			}
-		}
-
-		// Determine if any categories remain
-		if (item.categories.length > 0) { 
-			item.hasCategories = true;
-			item.categories[item.categories.length-1].last = true;
-		} else {
-			item.hasCategories = false;
-		}
-		
+		item = google.cleanupReaderItem(item);
 	});
 
 	// Load the template

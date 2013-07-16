@@ -1,9 +1,7 @@
 exports.config = {
 	instapaper : {
-		consumerKey : '',
-		consumerSecret : '',
 		rootUrl : 'www.instapaper.com',
-		authorizePath : '',
-		tokenPath : '/api/1/oauth/access_token'
+		maxQueueSize : 120,  // The maximum number of items to import, governed by Instapaper rate limits. 
+		importDelay : 5000  // Delay between import requests, in ms
 	}
 };
