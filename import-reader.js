@@ -4,11 +4,12 @@ var instapaper = require('./controllers/instapaper.js');
 
 var input, 
 	destination = 'instapaper';
-	
+
+// Gather input params
 var args = process.argv.slice(2);
 if (args.length < 1) {
 	console.log('\nMissing required parameters. \nUsage: ');
-	console.log(' $ node import-reader.js <PATH TO INPUT.json> <IMPORT DESTINATION> \nExample: ' );
+	console.log(' $ node import-reader.js <PATH TO INPUT.json> <IMPORT SERVICE> \nExample: ' );
 	console.log(' $ node import-reader.js ./example/example.json instapaper');	
 	process.exit();
 } else {
@@ -23,15 +24,14 @@ if (args.length < 1) {
 			console.log('Encountered error validating credentials. ', err);
 			process.exit();
 		} else {
-			console.log('Username/password validated, starting import.');
+			console.log('Username/password validated, starting import...\n');
 			
-			var newImport = new instapaper.Import(username, password);
-			
+			// Credentials looking good, proceed with import. 
+			var newImport = new instapaper.Import(username, password);			
 			// Load the input json
 			var inputData = fs.readFileSync(input, encoding='utf8');
 			// Parse the json into an object
-			var json = JSON.parse(inputData);
-			
+			var json = JSON.parse(inputData);			
 			// Iterate through the items
 			json.items.forEach(function(item, index, array) {
 				// Data cleanup
@@ -40,16 +40,22 @@ if (args.length < 1) {
 				newImport.queue.push(item);
 			});
 
+			// Subscribe (observe) to the import. Function to handle each import. 
+			newImport.subscribe(function(err, item) { 
+				if(err) {
+					console.log('ERROR:', err);
+				} else {
+					console.log('Successfully imported "' + item.title + '".');
+				}
+			});
+			
 			// Perform the import
-			newImport.start(function(err, result) {
-				
-				
+			newImport.start(function(err, result) { 
 				console.log('\nCOMPLETE. \nProcessed ' + result.length + ' items.');
 				process.exit();
 			});
 		}
-	});
-	
+	});	
 }
 
 
