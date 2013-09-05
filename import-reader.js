@@ -51,7 +51,13 @@ if (args.length < 1) {
 			
 			// Perform the import
 			newImport.start(function(err, result) { 
-				console.log('\nCOMPLETE. \nProcessed ' + result.length + ' items.');
+				if(err) {
+					console.log('\nERROR: ' + err);
+				} else {
+					var count = (result) ? result.length : 0;
+					console.log('\nCOMPLETE. \nProcessed ' + count + ' items.');
+				}
+
 				process.exit();
 			});
 		}
